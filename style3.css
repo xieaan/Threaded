@@ -1,0 +1,138 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #344334;          
+justify-content: center;
+}
+
+
+main {
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 15px
+}
+h1,h3 {
+  display: inline;
+}
+h3 {
+  font-size: small;
+}
+
+header { 
+  background: #333; 
+  color: rgb(148, 136, 136); 
+  padding: 10px;
+  margin: 15px;
+  border-radius: 20px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+nav { 
+  background: #555; 
+  color: rgb(255, 255, 255); 
+  text-align: center; 
+  padding: 10px;
+  margin: 15px;
+  border-radius: 20px;
+}
+nav a { 
+  color: rgb(255, 251, 251); 
+  margin: 0 10px; 
+  text-decoration: none; 
+
+}
+main { 
+  display: flex; 
+  flex-wrap: wrap; 
+}
+section { 
+  flex: 3; 
+  background: #455945;
+  padding: 10px;
+    margin: 15px;
+    border-radius: 20px;
+    max-width: 900px;
+}
+section p, ul, li, h2 {
+  color:white;
+
+}
+section:hover {
+  transition: background-color 0.3s ease;   
+  transform: scale(1.02);
+  flex: 2;
+}
+article { 
+  background: #577057;
+  padding: 10px; 
+  margin-bottom: 15px; 
+  border-radius: 20px;
+}
+details { 
+  background: #577057;
+  padding: 3px; 
+}
+details summary {
+  color: white;
+}
+footer { 
+  background: #222; 
+  color: white; 
+  text-align: center; }
+
+  map area {
+    cursor: pointer;
+  }
+map area:hover {
+  cursor: pointer;
+}
+iframe {
+  height: 152px;
+  width: 100%;
+}
+
+aside {
+  background: #577057;
+  padding: 5px;
+  margin: 15px;
+  border-radius: 20px;
+  color: white;
+  flex: 1;
+  max-width: 700px;
+}
+aside a {
+  color: white;
+  text-decoration: none;
+  font-size: small;
+}
+aside:hover {
+  background: #7fa07f;
+  transition: background-color 0.3s ease;
+}
+aside details{
+  background: #6b8e6b;
+  padding: 3px;
+}
+aside details:hover {
+  background: #7fa07f;
+  transition: background-color 0.3s ease;
+}
+aside socials a{
+  font-size: x-large;
+}
+footer {
+  background: #333;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 20px;
+  font-size: small;
+}
+footer p {
+  font-size: smaller;
+}

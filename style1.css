@@ -1,0 +1,85 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+h1,h3 {
+  display: inline;
+}
+h3 {
+  font-size: small;
+}
+
+header { 
+  background: #333; 
+  color: rgb(148, 136, 136); 
+  padding: 10px;
+  margin: 15px;
+  border-radius: 20px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+nav { 
+  background: #555; 
+  color: rgb(255, 255, 255); 
+  text-align: center; 
+  padding: 10px;
+  margin: 15px;
+  border-radius: 20px;
+}
+nav a { 
+  color: rgb(255, 251, 251); 
+  margin: 0 10px; 
+  text-decoration: none; 
+
+}
+
+/* Ensure the split-container fills the viewport */
+.split-container {
+  display: flex;
+  height: calc(100vh - 50px); /* Subtract footer height */
+  width: 100%; /* Ensure it spans the full width */
+}
+
+.split {
+  flex: 1; /* Make both sides take equal space */
+  display: flex; /* Enable flexbox for centering */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  overflow-x: hidden;
+}
+
+.left {
+  background-color: rgb(137, 195, 250);
+}
+
+.right {
+  background-color: #232d23;
+  color: white;
+}
+
+.centered {
+  text-align: center; /* Center text inside the container */
+}
+
+.centered img {
+  border-radius: 50%; /* Make the image circular */
+  width: 160px; /* Adjust image size */
+  height: 150px;
+  margin-bottom: 10px; /* Add spacing below the image */
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 20px;
+}
+footer p {
+  font-size: smaller;
+}
